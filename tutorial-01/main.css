@@ -1,0 +1,15 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #0f0;
+}
+
+h1 {
+	color: #f00;
+}
+
+p {
+	border: 1px solid rgba(255, 0, 0, 0.5);
+}

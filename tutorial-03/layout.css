@@ -1,0 +1,38 @@
+@CHARSET "ISO-8859-1";
+
+/*
+	Ich floate ...
+*/
+#page-wrapper {
+	
+}
+
+#header {
+	height: 50px;
+	min-height: 50px;
+	background-color: rgba(255, 0, 0, 0.5);
+}
+
+#navigation {
+	height: 100px;
+	min-heigth: 100px;
+	width: 80px;
+	min-width: 80px;
+	float: left;
+	background-color: rgba(0, 255, 0, 0.5);
+}
+
+#content {
+	
+	margin-left: 90px;
+	margin-right: 90px;
+}
+
+#ad {
+	height: 100px;
+	min-heigth: 100px;
+	width: 80px;
+	min-width: 80px;
+	float: right;
+	background-color: rgba(0, 0, 255, 0.5);
+}
