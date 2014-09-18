@@ -28,7 +28,8 @@
             // error = 0 --> alles i.O.
 
             $quelle = $_FILES['upload']['tmp_name'];
-            $ziel   = $_FILES['upload']['name'];
+            // der Dateiname wird um eine Pfadangabe ergänzt
+            $ziel   = '../uploads/' . $_FILES['upload']['name'];
             
             // in PHP gibt es zum Verarbeiten der temporären Upload-Dateiten einen
             // Funktionsaufruf move_uploaded_file( $quelle, $ziel )
