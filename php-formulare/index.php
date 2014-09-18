@@ -48,11 +48,11 @@
             <!-- Dropdown-Listen, Auswahllisten -->
             <label for="auswahl">Auswählen!</label>
             <select name="auswahl" id="auswahl">
-                <option></option>
-                <option>Deutschland</option>
-                <option>Schweiz</option>
-                <option>Österreich</option>
-                <option>Dänemark</option>
+                <option value=""></option>
+                <option value="1">Deutschland</option>
+                <option value="2">Schweiz</option>
+                <option value="3">Österreich</option>
+                <option value="4">Dänemark</option>
             </select>
             <br /> 
             
@@ -62,6 +62,7 @@
             <br /> 
             <input type="radio" name="anrede" id="na" value="anrede-3" /> <label for="na">unbestimmt</label>
             <br />
+            
             
             <input type="checkbox" name="news" id="news" value="newsletter" /> <label for="news">Newsletter bestellen</label>
             <br />

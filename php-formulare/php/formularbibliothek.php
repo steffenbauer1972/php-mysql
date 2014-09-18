@@ -23,3 +23,22 @@
         // und im Erfolgsfall liefern wir den bereinigten Wert 
         return $eingabe;       
     }
+    
+    function auswahlValidieren( $eingabe ) {
+        
+        // wir liefern den Auswahlwert (<option value="...">), falls dieser Wert ungleich 0 ist
+        if( $eingabe != 0 )
+            return $eingabe;
+        else
+            return false;   // im Fehlerfall liefern wir false
+    }
+    
+    function radioCheckboxValidieren( $eingabe ) {
+        
+        if( !isset( $eingabe )  ) 
+            return false;
+        else 
+            return $eingabe;
+    }    
+    
+    
