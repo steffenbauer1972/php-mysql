@@ -8,4 +8,9 @@
 	php-grundlagen-01 ... PHP und HTML voneinander abgrenzen
 	php-grundlagen-02 ... skalare und zusammengesetzte Datentypen
 	php-grundlagen-03 ... Kontrollstrukturen (if .. else, switch .. case .. default)
-
+					  ... include, require
+##Tag 03
+	php-grundlagen-04 ... Operatoren, Operatorenrangfolge
+	php-formulare	  ... HTTP-GET, HTTP-POST, $_GET, $_POST, Formulareingaben validieren
+##Tag 03
+	php-formulare     ... Fortsetzung
