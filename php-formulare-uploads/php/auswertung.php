@@ -16,13 +16,12 @@
      * Es genügt also nicht allein das Array $_POST, auch das $_FILES-Array
      * muss ausgewertet werden.
      */
-    
 
     // zunächst wäre wieder zu prüfen, ob das Formular gesendet wurde
     if( isset( $_POST['hochladen']) ) {
         
             
-        // dann prüfen wir, ob das Array $_FILES Daten enthält
+        // dann prüfen wir, ob das Array $_FILES gültige Daten enthält
         if( $_FILES['upload']['error'] == 0 ) {
             
             // error = 0 --> alles i.O.
