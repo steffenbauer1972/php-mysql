@@ -16,9 +16,6 @@
             <input type="file" name="upload" id="upload" />
             <br />
             
-            <input type="file" name="multiupload" id="multiupload" multiple />
-            <br />
-            
             <input type="submit" id="hochladen" name="hochladen" value="hochladen" />
         
         </form>

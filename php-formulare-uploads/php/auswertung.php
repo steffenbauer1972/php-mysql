@@ -34,18 +34,9 @@
             // Funktionsaufruf move_uploaded_file( $quelle, $ziel )
             
             move_uploaded_file($quelle, $ziel);
-        }       
-    }    
-
+        }
         
-
-
-
-
-
-
-
-    var_dump( $_POST );
+        
+    }
     
     var_dump( $_FILES );
-    

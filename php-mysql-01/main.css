@@ -1,0 +1,15 @@
+@CHARSET "ISO-8859-1";
+
+table {
+	border-collapse: collapse;
+	border: 1px solid #aaa;
+	line-height: 1.5em;
+}
+
+tr, td {
+	border: 1px solid #aaa;
+}
+
+tr:nth-child(even) {
+  background-color: #eee;
+}
