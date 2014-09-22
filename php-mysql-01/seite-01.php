@@ -1,4 +1,4 @@
-<!-- PHP und MySQL -->
+<!-- PHP und MySQL: SELECT -->
 <?php
 
     /**
