@@ -1,0 +1,63 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#header {
+	height: 3em;
+	min-height: 3em; 
+}
+
+#navigation {
+	height: 1.5em;
+	min-height: 1.5em;
+	line-height: 1.5em;
+	background-color: #06a;
+}
+
+
+ul#navlist {
+	
+	margin-left: 0;
+	padding-left: 0;
+	white-space: nowrap;
+}
+
+#navlist li {
+	
+	display: inline;
+	list-style-type: none;
+}
+
+#navlist a {
+	
+	padding: 3px 10px;
+	text-decoration: none;
+	background-color: #06A;
+	color: #fff;
+}
+
+#navlist a:hover {
+	
+	background-color: #F66;
+}
+
+/* GB Einträge */
+
+.gbe-wrapper {
+	
+	margin: 1em;
+	padding: 0 .5em;
+	border: 1px solid #eee;
+	
+}
+
+.gbe-header, .gbe-footer {
+	
+	font-size: 0.8em;
+	color: #555;
+	padding: .25em 0;
+}
+
