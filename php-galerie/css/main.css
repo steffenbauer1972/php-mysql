@@ -1,0 +1,15 @@
+@CHARSET "ISO-8859-1";
+
+.thumbnail {
+	
+	float: left;
+	width: 90px;
+	border: 1px solid #999;
+	margin: 0 15px 15px 0;
+	padding: 4px;
+}
+
+.datum, 
+.ort {
+	font-size: 0.75em;
+}
