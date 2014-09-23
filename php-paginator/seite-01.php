@@ -80,15 +80,20 @@
     if( $offset > 0 )
         $prev = $offset - 1;    // wir können noch zurück blättern
     else
-        $prev = 0;          // wir sind auf der ersten Bildschirmseite
+        $prev = 0;              // wir sind auf der ersten Bildschirmseite
     
     // eine Bildschirmseite weiter?
-    $query = "SELECT count(*) FROM City";
+    $query = "SELECT 
+                count(*) 
+              FROM 
+                City";
+    
     $result = mysql_query( $query );
     // list weist Arrayausdrücke skalaren Variablen einer Liste zu
     list( $count ) = mysql_fetch_array( $result );
         
-    // wenn es noch eine weitere Bildschirmseite gibt ... (maximale Bildschirmseite > aktuelle Bildschirmseite)
+    // wenn es noch eine weitere Bildschirmseite gibt ... 
+    // (maximale Bildschirmseite > aktuelle Bildschirmseite)
     if( floor($count / $anzahl)  > $offset )
         $next = $offset + 1;
     else
@@ -100,6 +105,16 @@
     &middot;
     <a href="seite-01.php?offset=<?php echo $next;?>&anzahl=<?php echo $anzahl; ?>"> weiter </a>
     <br />
+    <br />
+    <!-- variable Anzahl der Datensätze -->
+    <a href="seite-01.php?offset=0&anzahl=10"> 10 </a>
+    &middot;
+    <a href="seite-01.php?offset=0&anzahl=25"> 25 </a>
+    &middot;
+    <a href="seite-01.php?offset=0&anzahl=50"> 50 </a>
+    <br />
+    <br />
+    
 <?php 
     // Abfrage für den Paginator
     $query =    "SELECT 
@@ -113,7 +128,7 @@
     while( $datensatz = mysql_fetch_array($result, MYSQL_ASSOC)) {
         foreach( $datensatz as $wert )
             echo $wert . ' ';
-        echo PHP_EOL;
+        echo '<br />' . PHP_EOL;
     }
     
     
