@@ -19,3 +19,5 @@
 ##Tag 05
 	php-gaestebuch .................... eine Gästebuchapplikation
 	php-paginator ..................... seitenweises Blättern durch große Datenmengen
+##Tag 06
+	php-galerie ....................... ein kleines Galerieskript
