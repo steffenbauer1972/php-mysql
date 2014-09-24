@@ -21,3 +21,7 @@
 	php-paginator ..................... seitenweises Blättern durch große Datenmengen
 ##Tag 06
 	php-galerie ....................... ein kleines Galerieskript
+##Tag 07
+	php-formulare-dynamisch ........... dynamische Formulare generieren und verarbeiten
+	php-gaestebuch .................... um dynamische Formulare erweitert
+	php-galerie ....................... um dynamische Formulare erweitert

@@ -19,6 +19,7 @@
                 <ul>
                     <li><a href="index.php?seite=1">Home</a></li>
                     <li><a href="index.php?seite=2">Galerie</a></li>
+                    <li><a href="index.php?seite=5">Admin</a></li>
                 </ul>
                 
             </div>
@@ -50,6 +51,11 @@
                         case '4':   // Detailansicht zu einem Bild
                             include 'php/seite-04.php';
                             break;
+                            
+                        case '5':   // Adminbereich zum Löschen von Bildern
+                            include 'php/seite-05.php';
+                            break; 
+                        
                     }
                 
                 ?>

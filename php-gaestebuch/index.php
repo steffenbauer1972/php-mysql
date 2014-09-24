@@ -23,6 +23,7 @@
                 <ul id="navlist">
                     <li><a href="index.php?seite=1"> Home </a></li>
                     <li><a href="index.php?seite=2"> Gästebuch </a></li>
+                    <li><a href="index.php?seite=4"> Admin </a></li>
                 </ul>
             </div>
             
@@ -55,6 +56,10 @@
                         case '3':
                             include 'php/seite03.php';
                             break;
+                            
+                        case '4':
+                            include 'php/seite04.php';
+                            break; 
                     }
                     
                     
