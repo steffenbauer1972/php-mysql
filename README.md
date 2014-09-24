@@ -25,3 +25,6 @@
 	php-formulare-dynamisch ........... dynamische Formulare generieren und verarbeiten
 	php-gaestebuch .................... um dynamische Formulare erweitert
 	php-galerie ....................... um dynamische Formulare erweitert
+##Tag 08
+	php-sessions ...................... Grundlagen Sessions
+	php-login-logout .................. Anmelden an Webseiten mit Sessions
