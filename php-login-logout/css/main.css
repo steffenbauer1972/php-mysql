@@ -1,19 +1,5 @@
 @CHARSET "ISO-8859-1";
 
-.thumbnail {
-	
-	float: left;
-	width: 90px;
-	border: 1px solid #999;
-	margin: 0 15px 15px 0;
-	padding: 4px;
-}
-
-.datum, 
-.ort {
-	font-size: 0.75em;
-}
-
 body {
 	margin: 0;
 	padding: 0;
@@ -25,9 +11,9 @@ body {
 }
 
 #navigation {
-	height: 2em;
-	min-height: 2em;
-	line-height: 2em;
+	height: 1.5em;
+	min-height: 1.5em;
+	line-height: 1.5em;
 	background-color: #06a;
 }
 
@@ -56,10 +42,4 @@ ul#navlist {
 #navlist a:hover {
 	
 	background-color: #F66;
-}
-
-#navlist form {
-	display: inline;
-	padding-left: 2em;
-	color: #fff;
 }

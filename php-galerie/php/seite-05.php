@@ -1,3 +1,7 @@
+<?php 
+    if($_SESSION['login'] == true):
+        
+?>
 <h2>Adminbereich</h2>
 <?php
 
@@ -70,7 +74,14 @@
         <br />
         <input type="submit" name="loeschen" id="loeschen" value="löschen" />
     </form>
-    
+<?php 
+    else:
+?>
+    <h2>Anmeldung erforderlich</h2>
+<?php 
+    endif;
+?>
+
     
     
     

@@ -1,3 +1,6 @@
+<?php 
+    include 'php/session_control.php';
+?>
 <html>
     <head>
         <title>PHP Galerie</title>
@@ -15,13 +18,9 @@
             
             
             <div id="navigation">
-            
-                <ul>
-                    <li><a href="index.php?seite=1">Home</a></li>
-                    <li><a href="index.php?seite=2">Galerie</a></li>
-                    <li><a href="index.php?seite=5">Admin</a></li>
-                </ul>
-                
+<?php 
+                    include 'php/menu.php';
+?>
             </div>
 
             
